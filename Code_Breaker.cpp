@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 #include<fstream>
+#include <cstring>
 using namespace std;
 
 // randomStrGen generates a random string of numbers used as the random numbers in the game. Takes length as a parameter and returns the char array  of numbers. Assumes length is a positive int.
