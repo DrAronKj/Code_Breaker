@@ -102,7 +102,7 @@ void mastermind(istream& in, ostream& out)  //support for high level input/outpu
 			//if user guessa code
 			if (blackPin == 5)
 			{
-				cout << "\nGame over!!!" << endl;
+				cout << "\nYou succeeded in cracking Dr Doom's code!!!" << endl;
 				cout << "It took you " << tries << " tries to guess the correct combination: ";
 
 				for (int i = 0; i < 5; i++)
